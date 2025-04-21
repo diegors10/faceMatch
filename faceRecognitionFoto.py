@@ -8,11 +8,14 @@ known_face_names = []
 
 # Adicione rostos conhecidos aqui (substitua pelos seus arquivos de imagem)
 known_images = [
-    ("faces/pessoa1.jpg", "Diego Silva"),
-    ("faces/pessoa2.jpg", "Fernado Ramos"),
-    ("faces/pessoa3.jpg", "Carlos Drummond de Andrade"),
-    ("faces/pessoa4.jpg", "Francisco de Assis")
+    ("faces/1-face.png", "Daniel"),
+    ("faces/2-face.png", "Pablo"),
+    ("faces/6-face.png", "Jéssica"),
+    ("faces/4-face.png", "Natália"),
+    ("faces/7-face.png", "Matheus"),
+    ("faces/5-face.png", "Willer")
 ]
+
 
 for image_path, name in known_images:
     image = face_recognition.load_image_file(image_path)
@@ -22,7 +25,7 @@ for image_path, name in known_images:
         known_face_names.append(name)
 
 # Carregar a foto que você quer analisar
-photo_path = "foto_teste1.jpg"  # Substitua pelo caminho da sua foto
+photo_path = "img_comp/TURMA_BRAVO_1.jpg"  # Substitua pelo caminho da sua foto
 photo = face_recognition.load_image_file(photo_path)
 
 # Redimensiona a foto para melhorar o desempenho (opcional)
