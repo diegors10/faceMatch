@@ -10,8 +10,8 @@ known_face_names = []
 known_images = [
     ("faces/1-face.png", "Daniel"),
     ("faces/2-face.png", "Pablo"),
-    ("faces/6-face.png", "Jéssica"),
-    ("faces/4-face.png", "Natália"),
+    ("faces/6-face.png", "Jessica"),
+    ("faces/4-face.png", "Natalia"),
     ("faces/7-face.png", "Matheus"),
     ("faces/5-face.png", "Willer")
 ]
