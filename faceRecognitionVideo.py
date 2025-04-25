@@ -9,9 +9,11 @@ known_face_names = []
 
 # Lista de imagens e nomes
 known_images = [
-    ("faces/pessoa1.jpg", "Diego"),
-    ("faces/pessoa2.jpg", "Fernando"),
-    ("faces/pessoa3.jpg", "Carlos")
+    ("faces/1-face.png", "Ana"),
+    ("faces/2-face.png", "Gabryel"),
+    ("faces/3-face.png", "Karoline"),
+    ("faces/4-face.png", "Rodrigo"),
+    ("faces/10-face.png", "Diego"),    
 ]
 
 print("Carregando imagens conhecidas...")
